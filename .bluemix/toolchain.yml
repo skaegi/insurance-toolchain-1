@@ -1,7 +1,7 @@
 ---
-name: Toolchain v four
+name: Toolchain v five
 description: "A modern insurance company."
-# version: 2.0
+version: 2.0
 # required:
 #   - deploy
 #  - catalog-api-repo
