@@ -1,9 +1,9 @@
 ---
-name: Toolchain for Cloud Insurance
+name: Toolchain for Cloud Insurance V3
 description: "A modern insurance company. The application showcases cognitive and cloud computing ideas in the context of insurance. The toolchain is preconfigured for continuous delivery, source control, blue-green deployment, functional testing, issue tracking, online editing.\n\nTo get started, click **Create**."
 version: 2.0
-required:
-  - deploy
+# required:
+#   - deploy
 #  - catalog-api-repo
 #  - orders-api-repo
 #  - ui-repo
@@ -120,19 +120,19 @@ dashboard-build:
 webide:
   service_id: orion
 
-# Deployment
-deploy:
-  schema:
-    $ref: deploy.json
-  service-category: pipeline
-  parameters:
-    selected-region: "{{region}}"
-    selected-organization: "{{organization}}"
-    selected-space: "{{space}}"
-    orders-app-name: "{{name}}-orders"
-    catalog-app-name: "{{name}}-catalog"
-    ui-app-name: "{{name}}-webui"
-    dashboard-app-name: "{{name}}-dashboard"
+#Deployment
+# deploy:
+#   schema:
+#     $ref: deploy.json
+#   service-category: pipeline
+#   parameters:
+#     selected-region: "{{region}}"
+#     selected-organization: "{{organization}}"
+#     selected-space: "{{space}}"
+#     orders-app-name: "{{name}}-orders"
+#     catalog-app-name: "{{name}}-catalog"
+#     ui-app-name: "{{name}}-webui"
+#     dashboard-app-name: "{{name}}-dashboard"
 
 #Branch selection
 # branches:
