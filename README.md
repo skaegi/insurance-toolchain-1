@@ -19,7 +19,7 @@ Get started with this project, which is an online insurance application that con
 
 1. **To get started, click this button:**
 
-  [![Deploy To Bluemix](./.bluemix/create_toolchain_button.png)](https://console.ng.bluemix.net/devops/setup/deploy/)
+  [![Deploy To Bluemix](./.bluemix/create_toolchain_button.png)](https://console.ng.bluemix.net/devops/setup/deploy)
 
   > :warning: After you have create the toolchain, you will need to perform a manual step to import the Watson Conversation workspace into the chat bot. Refer to [these instructions](https://github.com/IBM-Bluemix/insurance-bot#importWorkspace) to complete the configuration.
 
