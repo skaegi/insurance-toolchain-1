@@ -1,23 +1,22 @@
 ---
-name: Toolchain v five
+name: Toolchain v six
 description: "A modern insurance company."
-version: 2.0
-# required:
+required:
+ - catalog-api-repo
 #   - deploy
-#  - catalog-api-repo
 #  - orders-api-repo
 #  - ui-repo
 #  - dashboard-repo
 # - branches
 
 # Github repos
-# catalog-api-repo:
-#   service_id: githubpublic
-#   parameters:
-#     repo_name: "cloudco-insurance-catalog"
-#     repo_url: "https://github.com/IBM-Bluemix/insurance-catalog"
-#     type: clone
-#     has_issues: true
+catalog-api-repo:
+  service_id: githubpublic
+  parameters:
+    repo_name: "cloudco-insurance-catalog"
+    repo_url: "https://github.com/IBM-Bluemix/insurance-catalog"
+    type: clone
+    has_issues: true
 #
 # orders-api-repo:
 #   service_id: githubpublic
