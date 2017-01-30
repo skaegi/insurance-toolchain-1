@@ -4,6 +4,10 @@ description: "A modern insurance company. The application showcases cognitive an
 version: 2.0
 required:
  - deploy
+ - catalog-api-repo
+ - orders-api-repo
+ - ui-repo
+ - dashboard-repo
 # - branches
 
 # Github repos
