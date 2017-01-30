@@ -1,6 +1,6 @@
 ---
-name: "Toolchain for Cloud Insurance Co."
-description: "A modern insurance company. The application showcases cognitive and cloud computing ideas in the context of insurance. The toolchain is preconfigured for continuous delivery, source control, blue-green deployment, functional testing, issue tracking, online editing.\n\nTo get started, click **Create**."
+name: Toolchain for Cloud Insurance
+description: "A modern insurance company."
 # version: 2.0
 # required:
 #  - deploy
