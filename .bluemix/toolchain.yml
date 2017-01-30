@@ -92,7 +92,7 @@ orders-api-build:
         CATALOG_APP_NAME: "{{deploy.parameters.catalog-app-name}}"
       execute: true
     services: ["orders-api-repo"]
-  hidden: [form, description]
+  hidden: ["form", "description"]
 
 dashboard-build:
   service_id: pipeline
@@ -110,7 +110,7 @@ dashboard-build:
         UI_APP_NAME: "{{deploy.parameters.ui-app-name}}"
       execute: true
     services: ["dashboard-repo"]
-  hidden: [form, description]
+  hidden: ["form", "description"]
 
 #Web IDE
 webide:
